@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class changeSize : MonoBehaviour
+public class ChangeSize : MonoBehaviour
 {
 
     [SerializeField] private float changeScale = 1.1f; // how much the object increases or decreases in size
@@ -15,16 +15,21 @@ public class changeSize : MonoBehaviour
         initialScale = transform.localScale; // gets the initial scale of the object
     }
 
-    void Update()
+    void OnMouseDown()
     {
         if (Input.GetMouseButtonDown(0)) // increases size with left mouse button (0)
         {
+            Debug.Log("left mouse down");
             transform.localScale *= changeScale;
         }
-        else if (Input.GetMouseButtonDown(1)) // decreases size with right mouse buutton (1)
+    }
+
+    void OnMouseOver()
+    {
+        if (Input.GetMouseButtonDown(1))
         {
+            Debug.Log("right mouse down"); // decreases size with right mouse button (1)
             transform.localScale /= changeScale;
         }
-
     }
 }
