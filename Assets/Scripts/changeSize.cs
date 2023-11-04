@@ -5,9 +5,9 @@ using UnityEngine;
 public class changeSize : MonoBehaviour
 {
 
-    [SerializeField] public float changeScale = 1.1f; // how much the object increases or decreases in size
-    public float maxSize = 10f;
-    public float minSize = 1f;
+    [SerializeField] private float changeScale = 1.1f; // how much the object increases or decreases in size
+    // private float maxSize = 10f;
+    // private float minSize = 1f;
     private Vector3 initialScale;
 
     void Start()    
