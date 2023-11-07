@@ -28,6 +28,7 @@ public class Player : MonoBehaviour
 
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
+            Debug.Log("jump pressed");
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
     }
