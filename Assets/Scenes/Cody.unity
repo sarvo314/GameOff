@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &286071598
 Transform:
   m_ObjectHideFlags: 0
@@ -177,11 +177,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1262897533737925373, guid: 51452f11b3a1247168ca3cfdae251e23, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.6
+      value: -40.8
       objectReference: {fileID: 0}
     - target: {fileID: 1262897533737925373, guid: 51452f11b3a1247168ca3cfdae251e23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -27.53
       objectReference: {fileID: 0}
     - target: {fileID: 1262897533737925373, guid: 51452f11b3a1247168ca3cfdae251e23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -538,12 +538,12 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.697
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FalloffIntensity: 0.466
+  m_Color: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
   m_Intensity: 1.5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 1
-  m_ApplyToSortingLayers: 00000000697b3c346feef914
+  m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -99658,7 +99658,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 1219474449}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f76f693bc3463fd499ec7fff51e3f4b3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -105890,7 +105890,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 4b589ccf0000000005558463697b3c346feef914
+  m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -105904,8 +105904,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0, y: -0.00000011920929, z: 0}
-    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
+    m_Center: {x: 0.0015000105, y: -0.0033500195, z: 0}
+    m_Extent: {x: 1.0043, y: 0.99685, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -105977,7 +105977,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1648949309}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f76f693bc3463fd499ec7fff51e3f4b3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -106074,8 +106074,8 @@ Transform:
   m_GameObject: {fileID: 1648949309}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -36.7, y: -30.2, z: -1.8183364}
-  m_LocalScale: {x: 56.501625, y: 7.062703, z: 4.2572365}
+  m_LocalPosition: {x: 20.9, y: -38.69, z: -1.8183364}
+  m_LocalScale: {x: 26.497383, y: 23.63463, z: 4.2572365}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 286071598}
