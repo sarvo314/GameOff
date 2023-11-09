@@ -31,16 +31,16 @@ public class Player : MonoBehaviour
             Debug.Log("jump pressed");
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
-        else if (!isGrounded)// If not grounded and moving left or right 
-        {
-            if (Input.GetKey(KeyCode.LeftArrow))
-            {
-                rb.AddForce(Vector2.left * moveSpeed, ForceMode2D.Force);
-            }
-            else if (Input.GetKey(KeyCode.RightArrow))
-            {
-                rb.AddForce(Vector2.right * moveSpeed, ForceMode2D.Force);
-            }
-        }
+        //else if (!isGrounded)// If not grounded and moving left or right 
+        //{
+        //    if (Input.GetKey(KeyCode.LeftArrow))
+        //    {
+        //        rb.AddForce(Vector2.left * moveSpeed, ForceMode2D.Force);
+        //    }
+        //    else if (Input.GetKey(KeyCode.RightArrow))
+        //    {
+        //        rb.AddForce(Vector2.right * moveSpeed, ForceMode2D.Force);
+        //    }
+        //}
     }
 }
