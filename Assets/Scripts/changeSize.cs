@@ -6,9 +6,8 @@ public class ChangeSize : MonoBehaviour
 {
 
     [SerializeField] private float changeScale = 1.1f; // how much the object increases or decreases in size
-    // private float maxSize = 10f;
-    // private float minSize = 1f;
     private Vector3 initialScale;
+
 
     void Start()    
     {   
@@ -19,17 +18,15 @@ public class ChangeSize : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0)) // increases size with left mouse button (0)
         {
-            Debug.Log("left mouse down");
             transform.localScale *= changeScale;
         }
     }
 
     void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1)) // decreases size with right mouse button (1)
         {
-            Debug.Log("right mouse down"); // decreases size with right mouse button (1)
-            transform.localScale /= changeScale;
+            transform.localScale /= changeScale; 
         }
     }
 }

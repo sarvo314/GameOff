@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private bool isGrounded;
     [SerializeField] private Transform groundCheck; // the object which is attached at the bottom of the player to check for the ground
-    [SerializeField] private LayerMask groundLayer; //this layer will be checkf for ground
+    [SerializeField] private LayerMask groundLayer; // this layer will check for the ground
 
     [SerializeField] private float jumpForce = 7f;
     [SerializeField] private float groundCheckOffset = 0.1f; //circle radious from the bottom of the player to check for ground
